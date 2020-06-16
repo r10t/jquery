@@ -2,7 +2,7 @@
   "name": "clean_jquery",
   "title": "jQuery",
   "description": "JavaScript library for DOM operations",
-  "version": "4.0.0-pre",
+  "version": "0.0.1",
   "main": "dist/jquery.js",
   "homepage": "https://jquery.com",
   "author": "OpenJS Foundation and other contributors (https://github.com/jquery/jquery/blob/master/AUTHORS.txt)",
