@@ -1,17 +1,14 @@
 {
-  "name": "jquery",
+  "name": "clean-jquery",
   "title": "jQuery",
   "description": "JavaScript library for DOM operations",
   "version": "4.0.0-pre",
   "main": "dist/jquery.js",
   "homepage": "https://jquery.com",
-  "author": {
-    "name": "OpenJS Foundation and other contributors",
-    "url": "https://github.com/jquery/jquery/blob/master/AUTHORS.txt"
-  },
+  "author": "OpenJS Foundation and other contributors (https://github.com/jquery/jquery/blob/master/AUTHORS.txt)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jquery/jquery.git"
+    "url": "git+https://github.com/r10t/jquery/jquery.git"
   },
   "keywords": [
     "jquery",
@@ -114,5 +111,8 @@
       "commit-msg": "node node_modules/commitplease",
       "pre-commit": "grunt lint:newer qunit_fixture"
     }
+  },
+  "directories": {
+    "test": "test"
   }
 }
