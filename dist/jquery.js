@@ -9,7 +9,7 @@
  * Released under the MIT license
  * https://jquery.org/license
  *
- * Date: 2020-06-17T10:06Z
+ * Date: 2020-06-17T10:17Z
  */
 ( function( global, factory ) {
 
@@ -516,6 +516,35 @@ function isArrayLike( obj ) {
 	return type === "array" || length === 0 ||
 		typeof length === "number" && length > 0 && ( length - 1 ) in obj;
 }
+var dir = function( elem, dir, until ) {
+	var matched = [],
+		truncate = until !== undefined;
+
+	while ( ( elem = elem[ dir ] ) && elem.nodeType !== 9 ) {
+		if ( elem.nodeType === 1 ) {
+			if ( truncate && jQuery( elem ).is( until ) ) {
+				break;
+			}
+			matched.push( elem );
+		}
+	}
+	return matched;
+};
+
+
+var siblings = function( n, elem ) {
+	var matched = [];
+
+	for ( ; n; n = n.nextSibling ) {
+		if ( n.nodeType === 1 && n !== elem ) {
+			matched.push( n );
+		}
+	}
+
+	return matched;
+};
+
+
 var documentElement = document.documentElement;
 
 
@@ -751,35 +780,6 @@ jQuery.extend( jQuery.find, {
 } );
 
 
-
-
-var dir = function( elem, dir, until ) {
-	var matched = [],
-		truncate = until !== undefined;
-
-	while ( ( elem = elem[ dir ] ) && elem.nodeType !== 9 ) {
-		if ( elem.nodeType === 1 ) {
-			if ( truncate && jQuery( elem ).is( until ) ) {
-				break;
-			}
-			matched.push( elem );
-		}
-	}
-	return matched;
-};
-
-
-var siblings = function( n, elem ) {
-	var matched = [];
-
-	for ( ; n; n = n.nextSibling ) {
-		if ( n.nodeType === 1 && n !== elem ) {
-			matched.push( n );
-		}
-	}
-
-	return matched;
-};
 
 
 var rneedsContext = jQuery.expr.match.needsContext;
