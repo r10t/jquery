@@ -1,5 +1,6 @@
 define( [
 	"./core",
+	"./selector",
 	"./traversing",
 	"./callbacks",
 	"./deferred",
@@ -15,7 +16,6 @@ define( [
 	"./manipulation/_evalUrl",
 	"./wrap",
 	"./css",
-	"./css/hiddenVisibleSelectors",
 	"./serialize",
 	"./ajax",
 	"./ajax/xhr",
@@ -25,7 +25,6 @@ define( [
 	"./core/parseXML",
 	"./core/parseHTML",
 	"./effects",
-	"./effects/animatedSelector",
 	"./offset",
 	"./dimensions",
 	"./deprecated",
