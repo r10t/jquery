@@ -1,6 +1,6 @@
 define( [
 	"./core",
-	"./selector",
+	"./selector-native",
 	"./traversing",
 	"./callbacks",
 	"./deferred",
