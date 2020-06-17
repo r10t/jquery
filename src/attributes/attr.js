@@ -3,8 +3,7 @@ define( [
 	"../core/access",
 	"../core/nodeName",
 	"./support",
-	"../var/rnothtmlwhite",
-	"../selector"
+	"../var/rnothtmlwhite"
 ], function( jQuery, access, nodeName, support, rnothtmlwhite ) {
 
 "use strict";

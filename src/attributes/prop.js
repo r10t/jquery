@@ -1,8 +1,7 @@
 define( [
 	"../core",
 	"../core/access",
-	"./support",
-	"../selector"
+	"./support"
 ], function( jQuery, access, support ) {
 
 "use strict";

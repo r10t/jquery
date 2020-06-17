@@ -8,8 +8,7 @@ define( [
 	"./core/nodeName",
 
 	"./core/init",
-	"./traversing/findFilter",
-	"./selector"
+	"./traversing/findFilter"
 ], function( jQuery, getProto, indexOf, dir, siblings, rneedsContext, nodeName ) {
 
 "use strict";

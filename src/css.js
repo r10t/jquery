@@ -15,8 +15,7 @@ define( [
 	"./css/finalPropName",
 
 	"./core/init",
-	"./core/ready",
-	"./selector" // contains
+	"./core/ready"
 ], function( jQuery, access, camelCase, nodeName, rcssNum, rnumnonpx, cssExpand,
 	getStyles, swap, curCSS, adjustCSS, addGetHookIf, support, finalPropName ) {
 

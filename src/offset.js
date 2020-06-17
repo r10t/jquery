@@ -10,7 +10,6 @@ define( [
 	"./var/isWindow",
 	"./core/init",
 	"./css",
-	"./selector" // contains
 ], function( jQuery, access, documentElement, isFunction, rnumnonpx,
 	curCSS, addGetHookIf, support, isWindow ) {
 

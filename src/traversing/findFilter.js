@@ -2,8 +2,7 @@ define( [
 	"../core",
 	"../var/indexOf",
 	"../var/isFunction",
-	"./var/rneedsContext",
-	"../selector"
+	"./var/rneedsContext"
 ], function( jQuery, indexOf, isFunction, rneedsContext ) {
 
 "use strict";

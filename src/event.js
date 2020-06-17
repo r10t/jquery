@@ -10,8 +10,7 @@ define( [
 	"./data/var/dataPriv",
 	"./core/nodeName",
 
-	"./core/init",
-	"./selector"
+	"./core/init"
 ], function( jQuery, document, documentElement, isFunction, rnothtmlwhite,
 	rcheckableType, slice, acceptData, dataPriv, nodeName ) {
 

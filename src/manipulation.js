@@ -22,7 +22,6 @@ define( [
 
 	"./core/init",
 	"./traversing",
-	"./selector",
 	"./event"
 ], function( jQuery, isAttached, flat, isFunction, push, rcheckableType,
 	access, rtagName, rscriptType,

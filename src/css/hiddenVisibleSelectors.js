@@ -1,6 +1,5 @@
 define( [
-	"../core",
-	"../selector"
+	"../core"
 ], function( jQuery ) {
 
 "use strict";

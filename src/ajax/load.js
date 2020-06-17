@@ -5,8 +5,7 @@ define( [
 	"../core/parseHTML",
 	"../ajax",
 	"../traversing",
-	"../manipulation",
-	"../selector"
+	"../manipulation"
 ], function( jQuery, stripAndCollapse, isFunction ) {
 
 "use strict";

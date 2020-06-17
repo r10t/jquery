@@ -3,7 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="b184a797-bca7-44f1-81f6-127c87b53f25" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ajax/load.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ajax/load.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/attributes/attr.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/attributes/attr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/attributes/prop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/attributes/prop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/isAttached.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/isAttached.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/css.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/hiddenVisibleSelectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/hiddenVisibleSelectors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/effects/animatedSelector.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/effects/animatedSelector.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/event.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/event.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/manipulation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/manipulation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/offset.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/offset.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/traversing.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/traversing.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/traversing/findFilter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/traversing/findFilter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/traversing/var/rneedsContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/traversing/var/rneedsContext.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +59,7 @@
       <workItem from="1592307762765" duration="7179000" />
       <workItem from="1592321510461" duration="201000" />
       <workItem from="1592335734668" duration="409000" />
-      <workItem from="1592375526856" duration="2960000" />
+      <workItem from="1592375526856" duration="3400000" />
     </task>
     <servers />
   </component>
@@ -59,5 +71,9 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="100" y="100" width="1592" height="920" key="DiffContextDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1592380537488" />
+    <state x="594" y="315" width="604" height="490" key="find.popup" timestamp="1592389615616">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="594" y="315" width="604" height="490" key="find.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1592389615616" />
   </component>
 </project>
