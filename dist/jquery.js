@@ -1,5 +1,5 @@
 /*!
- * jQuery JavaScript Library v3.5.2-pre
+ * jQuery JavaScript Library v0.0.1
  * https://jquery.com/
  *
  * Includes Sizzle.js
@@ -9,7 +9,7 @@
  * Released under the MIT license
  * https://jquery.org/license
  *
- * Date: 2020-06-17T07:34Z
+ * Date: 2020-06-17T07:56Z
  */
 ( function( global, factory ) {
 
@@ -147,7 +147,7 @@ function toType( obj ) {
 
 
 var
-	version = "3.5.2-pre",
+	version = "0.0.1",
 
 	// Define a local copy of jQuery
 	jQuery = function( selector, context ) {
