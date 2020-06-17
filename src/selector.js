@@ -1,3 +1,3 @@
-define( [ "./selector-sizzle" ], function() {
+define( [ "./selector-native" ], function() {
 	"use strict";
 } );
